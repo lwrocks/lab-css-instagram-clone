@@ -8,3 +8,85 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.phones {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  justify-content: center;
+    align-items: center;
+  align-content: stretch;
+  height: 30%;
+}
+
+.phones-bg {
+  margin-top: 4em;
+  margin-right: 2em;
+}
+
+.main-content {
+  max-width: 32em;
+}
+
+.app-info {
+  background-repeat: no-repeat;
+  background-color: #FFF !important;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 1) 100%);
+  border-radius: 8px;
+  margin-top: 2em;
+}
+
+h1 {
+  font-size: 1.6em;
+  line-height: 1.5em;
+  color: #06365F;
+  padding: 0.7em 7.8em 0em 1em;
+  margin-bottom: 0em;
+}
+
+.app-info p { 
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+p {
+  display: block;
+  padding: 0.6em 4em 0em 1.5em;
+}
+
+.ig-logo {
+  position: relative;
+  top: 3em;
+  left: 1em;
+  width: 20em;
+  height: auto;
+}
+
+.app-stores {
+  margin-left: 1.5em;
+  margin-top: 2em;
+}
+
+.footer-nav {
+  margin-top: 3em;
+}
+
+.footer-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0px;
+}
+
+.footer-nav li {
+  margin-right: 1.5em;
+}
+
+.footer-nav a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #517FA4;
+}
